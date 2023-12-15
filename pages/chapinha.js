@@ -21,7 +21,7 @@ const Chapinha = (props) => {
       <meta http-equiv="refresh" content="1; url = https://shope.ee/601lrkx6Tw" />
    </head>
    <body>
-      <p>você será redirecionado para a shopee. em 1 segundo</p>
+      <p>você será redirecionado para a shopee.</p>
    </body>
 </html>`}
             ></Script>

@@ -1801,6 +1801,14 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
+            .home-hero-heading {
+              color: var(--dl-color-gray-white);
+              width: 469px;
+              height: 113px;
+              font-size: 44px;
+              font-family: Raleway;
+              line-height: 1.1;
+            }
             .home-hero-sub-heading {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
@@ -1956,6 +1964,12 @@ const Home = (props) => {
             }
             .home-hero-heading {
               color: var(--dl-color-gray-white);
+              width: 371px;
+              height: 201px;
+              font-size: 44px;
+              max-width: 700px;
+              font-family: Raleway;
+              line-height: 1.6;
             }
             .home-btn-group {
               flex-direction: column;

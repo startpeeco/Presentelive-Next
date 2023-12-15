@@ -52,7 +52,7 @@ class CustomDocument extends Document {
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                '</noscript><style>\n@keyframes fade-in-left {\n  0% {\n    opacity: 0;\n    transform: translateX(-20px);\n  }\n  100% {\n    opacity: 1;\n    transform: translateX(0);\n  }\n}\n</style><noscript>',
+                '</noscript><style>\n@keyframes fade-in-left {\n  0% {\n    opacity: 0;\n    transform: translateX(-20px);\n  }\n  100% {\n    opacity: 1;\n    transform: translateX(0);\n  }\n}\n</style>\n<script type="text/javascript" src="https://cdn.storifyme.com/static/web-components/storifyme-elements.min.js"></script><noscript>',
             }}
           ></noscript>
         </Head>

@@ -1,6 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
 
+import Script from 'dangerous-html/react'
+
 import FeatureCard from '../components/feature-card'
 import GalleryCard3 from '../components/gallery-card3'
 import Question from '../components/question'
@@ -88,6 +90,13 @@ const Home = (props) => {
               <h1 className="home-hero-heading heading1">
                 Achamos o presente perfeito pra você
               </h1>
+              <div className="home-container02">
+                <div className="home-container03">
+                  <Script
+                    html={`<storifyme-story account="g-francisco-junior-70482" story="82329" env="eu"></storifyme-story>`}
+                  ></Script>
+                </div>
+              </div>
               <span className="home-hero-sub-heading">
                 Presentes que mostram que você se importa
               </span>
@@ -102,7 +111,7 @@ const Home = (props) => {
         </div>
         <div className="home-details">
           <div className="home-details1">
-            <div className="home-container02">
+            <div className="home-container04">
               <span className="home-text02 sectionTitle">
                 <span>Details</span>
                 <br></br>
@@ -126,7 +135,7 @@ const Home = (props) => {
         <div className="home-features">
           <div className="home-features-container">
             <div className="home-features1">
-              <div className="home-container03">
+              <div className="home-container05">
                 <span className="home-text05 sectionTitle">
                   <span>features</span>
                   <br></br>
@@ -139,7 +148,7 @@ const Home = (props) => {
                   perfect place for personalized gifts
                 </span>
               </div>
-              <div className="home-container04">
+              <div className="home-container06">
                 <FeatureCard
                   Heading="Customizable Gifts"
                   SubHeading="Create personalized gifts by adding names, photos, and special messages"
@@ -162,7 +171,7 @@ const Home = (props) => {
         </div>
         <div className="home-pricing">
           <div className="home-pricing1">
-            <div className="home-container05">
+            <div className="home-container07">
               <span className="home-text08 sectionTitle">
                 <span>Pricing</span>
                 <br></br>
@@ -175,43 +184,43 @@ const Home = (props) => {
                 needs
               </span>
             </div>
-            <div className="home-container06">
+            <div className="home-container08">
               <div className="home-pricing-card">
-                <div className="home-container07">
+                <div className="home-container09">
                   <span className="home-text11 heading3">Free</span>
                   <span className="home-free-plan-description">
                     Create personalized gifts for free
                   </span>
                 </div>
-                <div className="home-container08">
+                <div className="home-container10">
                   <span className="home-text12">
                     <span>$</span>
                     <span></span>
                   </span>
                   <span className="home-free-plan-price">0</span>
                 </div>
-                <div className="home-container09">
-                  <div className="home-container10">
+                <div className="home-container11">
+                  <div className="home-container12">
                     <span className="home-text15">✔</span>
                     <span className="home-free-plan-features">
                       Access to a wide range of customizable gift options
                     </span>
                   </div>
-                  <div className="home-container11">
+                  <div className="home-container13">
                     <span className="home-text16">✔</span>
                     <span className="home-free-plan-features1">
                       Ability to personalize gifts with text, images, and
                       designs
                     </span>
                   </div>
-                  <div className="home-container12">
+                  <div className="home-container14">
                     <span className="home-text17">✔</span>
                     <span className="home-free-plan-features2">
                       Option to preview and make changes before finalizing the
                       gift
                     </span>
                   </div>
-                  <div className="home-container13">
+                  <div className="home-container15">
                     <span className="home-text18">✔</span>
                     <span className="home-free-plan-features3">
                       Basic customer support
@@ -223,13 +232,13 @@ const Home = (props) => {
                 </button>
               </div>
               <div className="home-pricing-card1">
-                <div className="home-container14">
+                <div className="home-container16">
                   <span className="home-text19 heading3">BASIC</span>
                   <span className="home-basic-plan-description">
                     Upgrade for more personalized gift options
                   </span>
                 </div>
-                <div className="home-container15">
+                <div className="home-container17">
                   <span className="home-text20">
                     <span>$</span>
                     <span></span>
@@ -237,32 +246,32 @@ const Home = (props) => {
                   <span className="home-basic-plan-pricing">7</span>
                   <span className="home-text23">/ month</span>
                 </div>
-                <div className="home-container16">
-                  <div className="home-container17">
+                <div className="home-container18">
+                  <div className="home-container19">
                     <span className="home-text24">✔</span>
                     <span className="home-text25">
                       All features of FREE plan
                     </span>
                   </div>
-                  <div className="home-container18">
+                  <div className="home-container20">
                     <span className="home-text26">✔</span>
                     <span className="home-basic-plan-features">
                       All features of the Free Plan
                     </span>
                   </div>
-                  <div className="home-container19">
+                  <div className="home-container21">
                     <span className="home-text27">✔</span>
                     <span className="home-basic-plan-features1">
                       Additional premium gift options
                     </span>
                   </div>
-                  <div className="home-container20">
+                  <div className="home-container22">
                     <span className="home-text28">✔</span>
                     <span className="home-basic-plan-features2">
                       Priority customer support
                     </span>
                   </div>
-                  <div className="home-container21">
+                  <div className="home-container23">
                     <span className="home-text29">✔</span>
                     <span className="home-basic-plan-features3">
                       Faster delivery times
@@ -274,7 +283,7 @@ const Home = (props) => {
                 </button>
               </div>
               <div className="home-pricing-card2">
-                <div className="home-container22">
+                <div className="home-container24">
                   <span className="home-text30 heading3">
                     <span>PRO</span>
                     <br></br>
@@ -283,7 +292,7 @@ const Home = (props) => {
                     Unlock exclusive features and benefits
                   </span>
                 </div>
-                <div className="home-container23">
+                <div className="home-container25">
                   <span className="home-text33">
                     <span>$</span>
                     <span></span>
@@ -291,26 +300,26 @@ const Home = (props) => {
                   <span className="home-pro-plan-pricing">20</span>
                   <span className="home-text36">/ month</span>
                 </div>
-                <div className="home-container24">
-                  <div className="home-container25">
+                <div className="home-container26">
+                  <div className="home-container27">
                     <span className="home-text37">✔</span>
                     <span className="home-text38">
                        All features of BASIC plan
                     </span>
                   </div>
-                  <div className="home-container26">
+                  <div className="home-container28">
                     <span className="home-text39">✔</span>
                     <span className="home-pro-plan-features">
                       All features of the Basic Plan
                     </span>
                   </div>
-                  <div className="home-container27">
+                  <div className="home-container29">
                     <span className="home-text40">✔</span>
                     <span className="home-pro-plan-features1">
                       Access to exclusive limited edition gift options
                     </span>
                   </div>
-                  <div className="home-container28">
+                  <div className="home-container30">
                     <span className="home-text41">✔</span>
                     <span className="home-pro-plan-features2">
                       Dedicated account manager for personalized assistance
@@ -332,7 +341,7 @@ const Home = (props) => {
             <span className="home-gallery-sub-heading">
               Navegue pela nossa coleção de presentes personalizados
             </span>
-            <div className="home-container29">
+            <div className="home-container31">
               <GalleryCard3
                 image_src="https://images.unsplash.com/photo-1513273216459-54c4833d6b4c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMjY3MjAwOXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
                 rootClassName="rootClassName"
@@ -383,6 +392,13 @@ const Home = (props) => {
               ></GalleryCard3>
             </div>
           </div>
+          <div>
+            <div className="home-container33">
+              <Script
+                html={`<storifyme-story account="g-francisco-junior-70482" story="82329" env="eu"></storifyme-story>`}
+              ></Script>
+            </div>
+          </div>
         </div>
         <div className="home-banner">
           <div className="home-banner1">
@@ -399,7 +415,7 @@ const Home = (props) => {
         <div className="home-faq">
           <div className="home-faq-container">
             <div className="home-faq1">
-              <div className="home-container30">
+              <div className="home-container34">
                 <span className="home-text42 sectionTitle">
                   <span>FAQ</span>
                   <br></br>
@@ -468,7 +484,7 @@ const Home = (props) => {
                   </span>
                 </span>
               </div>
-              <div className="home-container31">
+              <div className="home-container35">
                 <Question
                   Answer="A personalized gift promotion website is a platform where users can create and customize unique gifts for their loved ones. These gifts can be personalized with names, photos, and special messages."
                   Question="What is a personalized gift promotion website?"
@@ -495,7 +511,7 @@ const Home = (props) => {
         </div>
         <div className="home-footer">
           <footer className="home-footer1">
-            <div className="home-container32">
+            <div className="home-container36">
               <span className="home-logo2">Presente live</span>
               <nav className="home-nav1 home-nav1">
                 <span className="home-nav12">Home</span>
@@ -506,7 +522,7 @@ const Home = (props) => {
               </nav>
             </div>
             <div className="home-separator"></div>
-            <div className="home-container33">
+            <div className="home-container37">
               <span className="home-text57">
                 © 2023  Presente live, All Rights Reserved.
               </span>
@@ -804,6 +820,9 @@ const Home = (props) => {
             font-family: 'Raleway';
             line-height: 1.6;
           }
+          .home-container03 {
+            display: contents;
+          }
           .home-hero-sub-heading {
             color: var(--dl-color-gray-white);
             font-size: 18px;
@@ -868,7 +887,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-fourunits);
             justify-content: space-between;
           }
-          .home-container02 {
+          .home-container04 {
             flex: 1;
             display: flex;
             align-items: flex-start;
@@ -932,7 +951,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-fourunits);
             justify-content: flex-start;
           }
-          .home-container03 {
+          .home-container05 {
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -954,7 +973,7 @@ const Home = (props) => {
             text-align: center;
             line-height: 1.6;
           }
-          .home-container04 {
+          .home-container06 {
             width: 100%;
             display: grid;
             grid-gap: var(--dl-space-space-twounits);
@@ -981,7 +1000,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-gray-white);
           }
-          .home-container05 {
+          .home-container07 {
             gap: 0;
             display: flex;
             align-items: center;
@@ -1004,7 +1023,7 @@ const Home = (props) => {
             text-align: center;
             line-height: 1.6;
           }
-          .home-container06 {
+          .home-container08 {
             gap: var(--dl-space-space-twounits);
             width: 100%;
             display: flex;
@@ -1030,7 +1049,7 @@ const Home = (props) => {
             justify-content: space-between;
             background-color: var(--dl-color-primary1-blue60);
           }
-          .home-container07 {
+          .home-container09 {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             align-items: flex-start;
@@ -1045,7 +1064,7 @@ const Home = (props) => {
           .home-free-plan-description {
             line-height: 1.6;
           }
-          .home-container08 {
+          .home-container10 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-twounits);
@@ -1060,14 +1079,14 @@ const Home = (props) => {
             font-size: 4rem;
             font-weight: 700;
           }
-          .home-container09 {
+          .home-container11 {
             width: 100%;
             display: flex;
             align-items: flex-start;
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .home-container10 {
+          .home-container12 {
             gap: 4px;
             flex: 0 0 auto;
             width: 100%;
@@ -1082,7 +1101,7 @@ const Home = (props) => {
           .home-free-plan-features {
             color: var(--dl-color-gray-800);
           }
-          .home-container11 {
+          .home-container13 {
             gap: 4px;
             flex: 0 0 auto;
             width: 100%;
@@ -1098,7 +1117,7 @@ const Home = (props) => {
             color: var(--dl-color-gray-800);
             line-height: 1.6;
           }
-          .home-container12 {
+          .home-container14 {
             gap: 4px;
             flex: 0 0 auto;
             width: 100%;
@@ -1114,7 +1133,7 @@ const Home = (props) => {
             color: var(--dl-color-gray-800);
             line-height: 1.6;
           }
-          .home-container13 {
+          .home-container15 {
             gap: 4px;
             flex: 0 0 auto;
             width: 100%;
@@ -1158,7 +1177,7 @@ const Home = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-primary1-blue60);
           }
-          .home-container14 {
+          .home-container16 {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             align-items: flex-start;
@@ -1173,7 +1192,7 @@ const Home = (props) => {
           .home-basic-plan-description {
             line-height: 1.6;
           }
-          .home-container15 {
+          .home-container17 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-twounits);
@@ -1194,14 +1213,14 @@ const Home = (props) => {
             margin-top: var(--dl-space-space-twounits);
             font-weight: 300;
           }
-          .home-container16 {
+          .home-container18 {
             width: 100%;
             display: flex;
             align-items: flex-start;
             margin-bottom: var(--dl-space-space-threeunits);
             flex-direction: column;
           }
-          .home-container17 {
+          .home-container19 {
             gap: 4px;
             flex: 0 0 auto;
             width: 100%;
@@ -1216,7 +1235,7 @@ const Home = (props) => {
           .home-text25 {
             color: var(--dl-color-gray-800);
           }
-          .home-container18 {
+          .home-container20 {
             gap: 4px;
             flex: 0 0 auto;
             width: 100%;
@@ -1232,7 +1251,7 @@ const Home = (props) => {
             color: var(--dl-color-gray-800);
             line-height: 1.6;
           }
-          .home-container19 {
+          .home-container21 {
             gap: 4px;
             flex: 0 0 auto;
             width: 100%;
@@ -1248,7 +1267,7 @@ const Home = (props) => {
             color: var(--dl-color-gray-800);
             line-height: 1.6;
           }
-          .home-container20 {
+          .home-container22 {
             gap: 4px;
             flex: 0 0 auto;
             width: 100%;
@@ -1264,7 +1283,7 @@ const Home = (props) => {
             color: var(--dl-color-gray-800);
             line-height: 1.6;
           }
-          .home-container21 {
+          .home-container23 {
             gap: 4px;
             flex: 0 0 auto;
             width: 100%;
@@ -1313,7 +1332,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-twounits);
             background-color: var(--dl-color-primary1-blue60);
           }
-          .home-container22 {
+          .home-container24 {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             align-items: flex-start;
@@ -1328,7 +1347,7 @@ const Home = (props) => {
           .home-pro-plan-description {
             line-height: 1.6;
           }
-          .home-container23 {
+          .home-container25 {
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-space-space-twounits);
@@ -1349,14 +1368,14 @@ const Home = (props) => {
             margin-top: var(--dl-space-space-twounits);
             font-weight: 300;
           }
-          .home-container24 {
+          .home-container26 {
             width: 100%;
             display: flex;
             align-items: flex-start;
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .home-container25 {
+          .home-container27 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1371,7 +1390,7 @@ const Home = (props) => {
             color: var(--dl-color-gray-800);
             line-height: 1.6;
           }
-          .home-container26 {
+          .home-container28 {
             gap: 4px;
             flex: 0 0 auto;
             width: 100%;
@@ -1387,7 +1406,7 @@ const Home = (props) => {
             color: var(--dl-color-gray-800);
             line-height: 1.6;
           }
-          .home-container27 {
+          .home-container29 {
             gap: 4px;
             flex: 0 0 auto;
             width: 100%;
@@ -1403,7 +1422,7 @@ const Home = (props) => {
             color: var(--dl-color-gray-800);
             line-height: 1.6;
           }
-          .home-container28 {
+          .home-container30 {
             gap: 4px;
             flex: 0 0 auto;
             width: 100%;
@@ -1468,12 +1487,15 @@ const Home = (props) => {
             padding-left: var(--dl-space-space-threeunits);
             padding-right: var(--dl-space-space-threeunits);
           }
-          .home-container29 {
+          .home-container31 {
             width: 100%;
             display: grid;
             grid-gap: var(--dl-space-space-unit);
             margin-top: var(--dl-space-space-twounits);
             grid-template-columns: 1fr 1fr 1fr 1fr;
+          }
+          .home-container33 {
+            display: contents;
           }
           .home-banner {
             flex: 0 0 auto;
@@ -1552,7 +1574,7 @@ const Home = (props) => {
             flex-direction: row;
             padding-bottom: var(--dl-space-space-fourunits);
           }
-          .home-container30 {
+          .home-container34 {
             display: flex;
             max-width: 35%;
             align-items: flex-start;
@@ -1575,7 +1597,7 @@ const Home = (props) => {
             text-align: left;
             line-height: 1.6;
           }
-          .home-container31 {
+          .home-container35 {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             align-items: flex-start;
@@ -1602,7 +1624,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-fourunits);
             justify-content: space-between;
           }
-          .home-container32 {
+          .home-container36 {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             max-width: var(--dl-size-size-maxwidth);
@@ -1660,7 +1682,7 @@ const Home = (props) => {
             border-left-width: 0px;
             border-right-width: 0px;
           }
-          .home-container33 {
+          .home-container37 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1727,7 +1749,7 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
             }
-            .home-container06 {
+            .home-container08 {
               align-items: center;
               flex-direction: column;
             }
@@ -1747,7 +1769,7 @@ const Home = (props) => {
             .home-gallery-sub-heading {
               text-align: center;
             }
-            .home-container29 {
+            .home-container31 {
               grid-template-columns: 1fr 1fr 1fr;
             }
             .home-banner-sub-heading {
@@ -1820,7 +1842,7 @@ const Home = (props) => {
               flex-direction: column;
               justify-content: center;
             }
-            .home-container02 {
+            .home-container04 {
               align-items: center;
               justify-content: flex-start;
             }
@@ -1847,7 +1869,7 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .home-container04 {
+            .home-container06 {
               grid-template-columns: 1fr;
             }
             .home-pricing1 {
@@ -1858,7 +1880,7 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .home-container06 {
+            .home-container08 {
               align-items: center;
               flex-direction: column;
             }
@@ -1888,7 +1910,7 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .home-container29 {
+            .home-container31 {
               grid-template-columns: 1fr 1fr;
             }
             .home-banner1 {
@@ -1904,7 +1926,7 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-twounits);
               flex-direction: column;
             }
-            .home-container30 {
+            .home-container34 {
               max-width: 100%;
               align-self: center;
               align-items: center;
@@ -1924,7 +1946,7 @@ const Home = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-container33 {
+            .home-container37 {
               align-items: center;
               flex-direction: column;
               justify-content: space-between;
@@ -1971,6 +1993,10 @@ const Home = (props) => {
               font-family: Raleway;
               line-height: 1.6;
             }
+            .home-container02 {
+              width: 100%;
+              height: 100%;
+            }
             .home-btn-group {
               flex-direction: column;
             }
@@ -1990,7 +2016,7 @@ const Home = (props) => {
             .home-gallery1 {
               padding: var(--dl-space-space-unit);
             }
-            .home-container29 {
+            .home-container31 {
               grid-template-columns: 1fr;
             }
             .home-banner1 {
@@ -2006,7 +2032,7 @@ const Home = (props) => {
               margin-top: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-container33 {
+            .home-container37 {
               align-items: center;
               flex-direction: column;
               justify-content: space-between;

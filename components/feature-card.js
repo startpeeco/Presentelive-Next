@@ -70,7 +70,7 @@ const FeatureCard = (props) => {
 }
 
 FeatureCard.defaultProps = {
-  Heading: 'Lorem ipsum',
+  Heading: 'Para  Meninos',
   SubHeading:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lorem lorem, malesuada in metus vitae, scelerisque accumsan ipsum.',
 }

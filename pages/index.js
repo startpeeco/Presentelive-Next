@@ -22,10 +22,10 @@ const Home = (props) => {
             <div data-thq="thq-navbar-nav" className="home-desktop-menu">
               <nav className="home-links">
                 <span>Home</span>
-                <span className="home-nav2">About</span>
-                <span className="home-nav3">Products</span>
+                <span className="home-nav2">Sobre</span>
+                <span className="home-nav3">Produtos</span>
                 <span className="home-nav4">FAQ</span>
-                <span className="home-nav5">Contact</span>
+                <span className="home-nav5">Contato</span>
               </nav>
               <div className="home-buttons">
                 <button className="home-login button">Login</button>
@@ -86,17 +86,15 @@ const Home = (props) => {
           <div className="home-hero1">
             <div className="home-container01">
               <h1 className="home-hero-heading heading1">
-                Encontre o presente personalizado perfeito
+                Achamos o presente perfeito pra você
               </h1>
               <span className="home-hero-sub-heading">
                 Presentes que mostram que você se importa
               </span>
               <div className="home-btn-group">
-                <button className="home-hero-button1 button">
-                  Get Started
-                </button>
+                <button className="home-hero-button1 button">Assisitir</button>
                 <button className="home-hero-button2 button">
-                  Learn More →
+                  recomendação→
                 </button>
               </div>
             </div>
@@ -1958,8 +1956,6 @@ const Home = (props) => {
             }
             .home-hero-heading {
               color: var(--dl-color-gray-white);
-              font-family: Raleway;
-              line-height: 1.6;
             }
             .home-btn-group {
               flex-direction: column;

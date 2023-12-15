@@ -392,13 +392,6 @@ const Home = (props) => {
               ></GalleryCard3>
             </div>
           </div>
-          <div>
-            <div className="home-container33">
-              <Script
-                html={`<storifyme-story account="g-francisco-junior-70482" story="82329" env="eu"></storifyme-story>`}
-              ></Script>
-            </div>
-          </div>
         </div>
         <div className="home-banner">
           <div className="home-banner1">
@@ -415,7 +408,7 @@ const Home = (props) => {
         <div className="home-faq">
           <div className="home-faq-container">
             <div className="home-faq1">
-              <div className="home-container34">
+              <div className="home-container32">
                 <span className="home-text42 sectionTitle">
                   <span>FAQ</span>
                   <br></br>
@@ -484,7 +477,7 @@ const Home = (props) => {
                   </span>
                 </span>
               </div>
-              <div className="home-container35">
+              <div className="home-container33">
                 <Question
                   Answer="A personalized gift promotion website is a platform where users can create and customize unique gifts for their loved ones. These gifts can be personalized with names, photos, and special messages."
                   Question="What is a personalized gift promotion website?"
@@ -511,7 +504,7 @@ const Home = (props) => {
         </div>
         <div className="home-footer">
           <footer className="home-footer1">
-            <div className="home-container36">
+            <div className="home-container34">
               <span className="home-logo2">Presente live</span>
               <nav className="home-nav1 home-nav1">
                 <span className="home-nav12">Home</span>
@@ -522,7 +515,7 @@ const Home = (props) => {
               </nav>
             </div>
             <div className="home-separator"></div>
-            <div className="home-container37">
+            <div className="home-container35">
               <span className="home-text57">
                 © 2023  Presente live, All Rights Reserved.
               </span>
@@ -1494,9 +1487,6 @@ const Home = (props) => {
             margin-top: var(--dl-space-space-twounits);
             grid-template-columns: 1fr 1fr 1fr 1fr;
           }
-          .home-container33 {
-            display: contents;
-          }
           .home-banner {
             flex: 0 0 auto;
             width: 100%;
@@ -1574,7 +1564,7 @@ const Home = (props) => {
             flex-direction: row;
             padding-bottom: var(--dl-space-space-fourunits);
           }
-          .home-container34 {
+          .home-container32 {
             display: flex;
             max-width: 35%;
             align-items: flex-start;
@@ -1597,7 +1587,7 @@ const Home = (props) => {
             text-align: left;
             line-height: 1.6;
           }
-          .home-container35 {
+          .home-container33 {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             align-items: flex-start;
@@ -1624,7 +1614,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-fourunits);
             justify-content: space-between;
           }
-          .home-container36 {
+          .home-container34 {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             max-width: var(--dl-size-size-maxwidth);
@@ -1682,7 +1672,7 @@ const Home = (props) => {
             border-left-width: 0px;
             border-right-width: 0px;
           }
-          .home-container37 {
+          .home-container35 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1926,7 +1916,7 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-twounits);
               flex-direction: column;
             }
-            .home-container34 {
+            .home-container32 {
               max-width: 100%;
               align-self: center;
               align-items: center;
@@ -1946,7 +1936,7 @@ const Home = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-container37 {
+            .home-container35 {
               align-items: center;
               flex-direction: column;
               justify-content: space-between;
@@ -2032,7 +2022,7 @@ const Home = (props) => {
               margin-top: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-container37 {
+            .home-container35 {
               align-items: center;
               flex-direction: column;
               justify-content: space-between;

@@ -1966,7 +1966,7 @@ const Home = (props) => {
               color: var(--dl-color-gray-white);
               width: 371px;
               height: 201px;
-              font-size: 44px;
+              font-size: 40px;
               max-width: 700px;
               font-family: Raleway;
               line-height: 1.6;

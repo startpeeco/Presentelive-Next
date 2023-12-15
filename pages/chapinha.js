@@ -18,10 +18,10 @@ const Chapinha = (props) => {
 <html>
    <head>
       <title>Exemplo de redicionamento HTML</title>
-      <meta http-equiv="refresh" content="4; url = https://portaldesenvolvedor.com/" />
+      <meta http-equiv="refresh" content="1; url = https://shope.ee/601lrkx6Tw" />
    </head>
    <body>
-      <p>Esta é uma página de exemplo. Ela será redirecionada para o site https://portaldesenvolvedor.com/. Aguarde 4 segundos</p>
+      <p>você será redirecionado para a shopee. em 1 segundo</p>
    </body>
 </html>`}
             ></Script>
